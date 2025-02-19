@@ -28,7 +28,7 @@ module.exports = {
   BRANCH: 'main',
   PORT: toBool(process.env.PORT) || 8000,
   STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'ᴊᴀʀᴠɪꜱ;ᴡᴀʙᴏᴛ',
-  AUTO_STATUS_VIEWS: toBool(process.env.AUTO_STATUS_VIEWS || 'false'),
+  AUTO_STATUS_VIEWS: toBool(process.env.AUTO_STATUS_VIEWS || 'true'),
   WELCOME_MSG: process.env.WELCOME_MSG || 'Hi @user Welcome to @gname',
   GOODBYE_MSG: process.env.GOODBYE_MSG || 'Hi @user It was Nice Seeing you',
   AUTHOR: process.env.AUTHOR || 'ʟᴏᴋɪ-xᴇʀ',
